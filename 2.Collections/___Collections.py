@@ -18,17 +18,17 @@ for i in range(num_of_dicts):
     list_of_dicts.append(new_dict)
 
 print("List of dictionaries:")
-for idx, d in enumerate(list_of_dicts, start=1): # use enumerate object to list all disctionaries and elements,returns a tuple with the counter and value
-    print(f"Dict {idx}: {d}")
+for index, dicts  in enumerate(list_of_dicts, start=1): # use enumerate object to list all disctionaries and elements,returns a tuple with the counter and value
+    print(f"Dict {index}: {dicts}")
 
 # Create a combined dictionary from 2 generated dictionaries
 combined_dict = {}
 
-for idx, d in enumerate(list_of_dicts, start=1): 
-    for key, value in d.items():
+for index, dicts in enumerate(list_of_dicts, start=1): 
+    for key, value in dicts.items():
         if key in combined_dict:
             if value > combined_dict[key]:  # Compare key, take bigger/max value and rename key
-                combined_dict[f"{key}_{idx}"] = value
+                combined_dict[f"{key}_{index}"] = value
                 del combined_dict[key]
         else:
             combined_dict[key] = value  # If key peresent in only one dict, take it as is.
