@@ -1,0 +1,16 @@
+[
+    {
+        "type": "joke",
+        "text": "This is a joke"
+    },
+    {
+        "type": "ad",
+        "text": "This is an ad",
+        "exp_date": "12-09-2023"
+    },
+    {
+        "type": "news",
+        "text": "Something happened",
+        "location": "Prague"
+    }
+]
