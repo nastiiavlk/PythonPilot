@@ -29,7 +29,9 @@ def count_whitespaces(initial_string: str) -> int:
     Returns:
     int:Returning value
     """
+    #"This is the docs"
     return initial_string.count(' ') + initial_string.count('\n')
+
 
 def normalize_string(initial_string: str) -> str:
     """
@@ -59,13 +61,17 @@ def normalize_string(initial_string: str) -> str:
     return res
 
 
-# Main code can be executed in file level on Python 3+
-final_string = normalize_string(STRING)
-print(final_string)
+def main():
+    # Main code can be executed in file level on Python 3+
+    final_string = normalize_string(STRING)
+    print(final_string)
 
-count_of_whitespaces = count_whitespaces(STRING)
-print(f'Number of whitespace characters: {count_of_whitespaces}')
+    count_of_whitespaces = count_whitespaces(STRING)
+    print(f'Number of whitespace characters: {count_of_whitespaces}')
 
-# Bonus: Print function __doc__
-print(normalize_string.__doc__)
+    # Bonus: Print function __doc__
+    print(normalize_string.__doc__)
+
+
+main()
 
