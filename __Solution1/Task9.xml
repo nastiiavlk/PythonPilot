@@ -1,0 +1,15 @@
+<feeds>
+    <feed type="N" id="1">
+        <text>This IS the eXAMple of task 9! news text</text>
+        <city>Prague</city>
+    </feed>
+    <feed type="A" id="2">
+        <text>This IS the eXAMple of task 9! aDS text</text>
+        <city>Brno</city>
+        <expired>2024-01-01</expired>
+    </feed>
+    <feed type="T" id="3">
+        <text>This IS the eXAMple of task 9! twEET text</text>
+        <author>Unknown</author>
+    </feed>
+</feeds>
