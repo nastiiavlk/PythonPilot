@@ -1,0 +1,23 @@
+{
+  "feeds": [
+    {
+      "id": 1,
+      "type": "N",
+      "text": "This IS the eXAMple of task 8! news text",
+      "city": "Prague"
+    },
+    {
+      "id": 2,
+      "type": "A",
+      "text": "This IS the eXAMple of task 8! aDS text",
+      "city": "Brno",
+      "expired": "2024-01-01"
+    },
+    {
+      "id": 3,
+      "type": "T",
+      "text": "This IS the eXAMple of task 8! twEET text",
+      "author": "Unknown"
+    }
+  ]
+}

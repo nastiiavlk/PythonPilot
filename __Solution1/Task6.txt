@@ -1,0 +1,10 @@
+N
+This IS the eXAMple of task 6! news text
+Prague
+$A
+This IS the eXAMple of task 6! aDS text
+Brno
+2024-01-01
+$T
+This IS the eXAMple of task 6! twEET text
+Unknown
